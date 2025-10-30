@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+ 
+    <header>
+        <div class="container row">
+            <div class="logo">
+                <a href="#" class="lato-bold">
+                    <span>
+                        Food
+                    </span>
+                    Wagon
+                </a>
+            </div>
+            <div class="address">
+                <p class="lato-regular">
+                    <span class="lato-bold">Deliver to:</span>
+                    <i class="ri-map-pin-2-line primary-color"></i>
+                    map-marker-alt
+                    Current Location
+                    <span class="lato-bold">Mohammadpur Bus Stand, Dhaka</span>
+                </p>
+            </div>
+            <div class="row header-buttons">
+                <div>
+                    <i class="ri-search-line primary-color"></i>
+                    <input type="search" name="" id="" placeholder="Search Food">
+                </div>
+                <button class="primary-color">
+                    <i class="ri-user-fill "></i>
+                    Login
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+   <!--hero section-->
+  <header class="hero">
+    <div class="hero-inner">
+      <!-- Left content: heading and subtitle -->
+      <div class="hero-left">
+        <h1> <div class="title"> you starving?</div></h1>
+        <p class="subtitle">Within a few clicks, find meals that are accessible near you</p>
+
+        <!-- Search card -->
+        <div class="search-card" role="search" aria-label="Find food">
+          <div class="tabs">
+            <button class="tab active" aria-pressed="true">
+              <!-- delivery icon (simple) -->
+              <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M3 3h13v8h-13zM20 11v6h-2a2 2 0 0 0-4 0H9a2 2 0 0 0-4 0H3" fill="currentColor"/></svg>
+              Delivery
+            </button>
+            <button class="tab" aria-pressed="false">
+              <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v2h10V7a5 5 0 0 0-5-5zM6 11v6h12v-6H6z" fill="currentColor"/></svg>
+              Pickup
+            </button>
+          </div>
+
+          <div class="search-row">
+            <label class="location">
+              <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 2C8 2 5 5.2 5 9.3C5 14 12 22 12 22s7-8 7-12.7C19 5.2 16 2 12 2zM12 11.5a2.2 2.2 0 1 1 0-4.4 2.2 2.2 0 0 1 0 4.4z" fill="currentColor"/></svg>
+              <input type="text" placeholder="Enter your address" aria-label="Address" />
+            </label>
+
+            <button class="find-btn" aria-label="Find food">
+              <svg viewBox="0 0 24 24" class="icon-sm" aria-hidden="true"><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+              Find Food
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right content: framed bowl image -->
+      <div class="hero-right">
+        <div class="image-frame" role="img" aria-label="Bowl of food">
+          <img src=".vscode/Image@2x.png" alt="Bowl of food" />
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- HERO SECTION END -->
+     <!--deal-box-->
+     <section>
+        <div class="container deal-grid">
+             <div  class="card">
+                <!--image box-->
+                    <img src=".vscode/deal1.png" alt="">
+                <div class="disscount-tag">
+                    <span>15%</span>
+                </div>
+            <div class="content">
+                <h3>Grey Vege</h3>
+                <h3 class="remaining">6 Days Remaining</h3>
+            </div>
+            </div>
+
+            <div  class="card">
+                <!--image box-->
+                    <img src=".vscode/deal2.png" alt="">
+                <div class="disscount-tag">
+                    <span>10%</span>
+                </div>
+            <div class="content">
+                <h3>Grey Vege</h3>
+                <h3 class="remaining">7 Days Remaining</h3>
+            </div>
+            </div>
+
+            <div  class="card">
+                <!--image box-->
+                    <img src=".vscode/deal3.png" alt="">
+                <div class="disscount-tag">
+                    <span>25%</span>
+                </div>
+            <div class="content">
+                <h3>Grey Vege</h3>
+                <h3 class="remaining">8 Days Remaining</h3>
+            </div>
+            </div>
+
+            <div  class="card">
+                <div><!--image box-->
+                    <img src=".vscode/deal4.png" alt="">
+                <div class="disscount-tag">
+                    <span>20%</span>
+                </div>
+            <div class="content">
+                <h3>Grey Vege</h3>
+                <h3 class="remaining">9 Days Remaining</h3>
+            </div>
+            </div>
+        </div>
+     </section>    
+    <!--icons-->
+    <section id="process-section">
+        <div class="container vertical-padding">
+            <h2 class="kia">How does it work</h2>
+            <div class="process-grid">
+                <div class="process-card">
+                    <img src=".vscode/Icon.png" alt="">
+                    <h3>Select location</h3>
+                    <p>Choose the location where your food will be delivered.</p>
+                </div>
+                <div class="process-card">
+                    <img src=".vscode/Menu2.png" alt="">
+                    <h3>Choose Order</h3>
+                    <p>Choose the location where your food will be delivered.</p>
+                </div>
+                <div class="process-card">
+                    <img src=".vscode/Invoice3.png" alt="">
+                    <h3>Select location</h3>
+                    <p>Choose the location where your food will be delivered.</p>
+                </div>
+                <div class="process-card">
+                    <img src=".vscode/Icons4.png" alt="">
+                    <h3>Select location</h3>
+                    <p>Choose the location where your food will be delivered.</p>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!--icons end-->
+    <!-- POPULAR ITEMS  -->
+  <section class="popular-section">
+    <h2 class="title">Popular items</h2>
+    <div class="card-container">
+
+      <div class="card">
+        <img src=".vscode/download6.png" alt="Cheese Burger">
+        <h3>Cheese Burger</h3>
+        <p class="place">🍔 Burger Arena</p>
+        <p class="price">$3.88</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="card">
+        <img src=".vscode/download7.png" alt="Toffe's Cake">
+        <h3>Toffe's Cake</h3>
+        <p class="place">🎂 Top Sticks</p>
+        <p class="price">$4.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="card">
+        <img src=".vscode/download8.png" alt="Dancake">
+        <h3>Dancake</h3>
+        <p class="place">🍰 Cake World</p>
+        <p class="price">$1.99</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="card">
+        <img src=".vscode/download9.png" alt="Crispy Sandwich">
+        <h3>Crispy Sandwich</h3>
+        <p class="place">🥪 Fastfood Dine</p>
+        <p class="price">$3.00</p>
+        <button>Order Now</button>
+      </div>
+
+      <div class="card">
+        <img src=".vscode/download10.png" alt="Thai Soup">
+        <h3>Thai Soup</h3>
+        <p class="place">🍜 Foody man</p>
+        <p class="price">$2.79</p>
+        <button>Order Now</button>
+      </div>
+
+    </div>
+  </section>
+    <!--featured resturent-->
+  <section class="restaurants">
+    <h2>Featured Restaurants</h2>
+
+    <div class="cards">
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="image">
+          <img src=".vscode/Foodhub.png">
+        </div>
+        <div class="info">
+          <h3>Foodworld</h3>
+          <p class="rating">⭐ 4.8</p>
+          <p class="status closed">Opens tomorrow</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="image">
+          <img src=".vscode/pizahub.png" alt="Pizzahub">
+        </div>
+        <div class="info">
+          <h3>Pizzahub</h3>
+          <p class="rating">⭐ 4.6</p>
+          <p class="status closed">Opens tomorrow</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="image">
+          <img src=".vscode/donat1.png" alt="Donuts hut">
+        </div>
+        <div class="info">
+          <h3>Donuts hut</h3>
+          <p class="rating">⭐ 4.2</p>
+          <p class="status open">Open now</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <div class="image">
+          <img src=".vscode/donat2.png" alt="Donuts hut">
+        </div>
+        <div class="info">
+          <h3>Donuts hut</h3>
+          <p class="rating">⭐ 4.5</p>
+          <p class="status open">Open now</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--ya dori imge hai-->
+
+  <div class="food-container">
+    <div class="food-card">
+      <div class="food-img">
+        <img src=".vscode/image1.png" alt="Ruby Tuesday">
+        <div class="labels">
+          <span class="discount">14% off</span>
+          <span class="fast">Fast</span>
+        </div>
+      </div>
+      <div class="food-info">
+        <div class="logo ruby">
+          <img src=".vscode/Image 5.png" alt="">
+        </div>
+        <h3>Ruby Tuesday</h3>
+        <p>⭐ 4.5</p>
+        <button>Open Now</button>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <div class="food-img">
+        <img src=".vscode/Image 2.png" alt="Kuskris Fried Chicken">
+        <div class="labels">
+          <span class="discount">25% off</span>
+          <span class="fast">Fast</span>
+        </div>
+      </div>
+      <div class="food-info">
+        <div class="logo kfc">
+          <img src=".vscode/Image 6.png" alt="">
+        </div>
+        <h3>Kuskris Fried Chicken</h3>
+        <p>⭐ 4.2</p>
+        <button>Open Now</button>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <div class="food-img">
+        <img src=".vscode/Image 3.png" alt="Red Square">
+        <div class="labels">
+          <span class="discount">10% off</span>
+          <span class="fast">Fast</span>
+        </div>
+      </div>
+      <div class="food-info">
+        <div class="logo red">
+          <img src=".vscode/Image7.png" alt="">
+          </div>
+        <h3>Red Square</h3>
+        <p>⭐ 4.7</p>
+        <button>Open Now</button>
+      </div>
+    </div>
+
+    <div class="food-card">
+      <div class="food-img">
+        <img src=".vscode/Image 4.png" alt="Taco Bell">
+        <div class="labels">
+          <span class="discount">10% off</span>
+          <span class="fast">Fast</span>
+        </div>
+      </div>
+      <div class="food-info">
+        <div class="logo taco">
+          <img src=".vscode/image8.png" alt="">
+        </div>
+        <h3>Taco Bell</h3>
+        <p>⭐ 4.4</p>
+        <button>Open Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!--view all-->
+  <!-- Section Header with View All Button -->
+  <div class="section-header">
+    <button class="view-all-btn"> View All</button> <!-- Navigation Arrows -->
+    <h2>Search by Food</h2>
+  </div>
+
+  <!-- Food Items -->
+  <div class="food-container">
+    <div class="food-item">
+      <img src=".vscode/Img.png" alt="Pizza">
+      <p>Pizza</p>
+    </div>
+    <div class="food-item">
+      <img src=".vscode/Img2.png" alt="Burger">
+      <p>Burger</p>
+    </div>
+    <div class="food-item">
+      <img src=".vscode/Img 3.png" alt="Noodles">
+      <p>Noodles</p>
+    </div>
+    <div class="food-item">
+      <img src=".vscode/Img 4.png" alt="Sub Sandwich">
+      <p>Sub sandwich</p>
+    </div>
+    <div class="food-item">
+      <img src=".vscode/Img 5.png" alt="Chinese">
+      <p>Chewanese</p>
+    </div>
+    <div class="food-item">
+      <img src=".vscode/Img 6.png" alt="Steak">
+      <p>Steak</p>
+    </div>
+  </div>
+
+  <!-- Navigation Arrows -->
+  <div class="nav-buttons">
+    <button>&lt;</button>
+    <button>&gt;</button>
+  </div>
+
+  <!--featured-->
+  <div class="container">
+    <!-- Top Features -->
+    <div class="features">
+      <div class="feature">
+        <img src=".vscode/featured1.png" alt="discount" />
+        <h4>Daily Discounts</h4>
+      </div>
+      <div class="feature">
+        <img src=".vscode/featured2.png" alt="tracing" />
+        <h4>Live Tracing</h4>
+      </div>
+      <div class="feature">
+        <img src=".vscode/featured3.png" alt="delivery" />
+        <h4>Quick Delivery</h4>
+      </div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main-section">
+      <div class="app-preview">
+        <img src=".vscode/iPhone.png" alt="app preview 1">
+        <img src="iPhone.png" alt="app preview 2">
+      </div>
+      
+  <div class="download-buttons">
+    <a href="#" class="btn google-play">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+    </a>
+    <a href="#" class="btn app-store">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+    </a>
+  </div>
+ 
+  <!--3 cards hai-->
+  <section class="food-section">
+    <!-- Card 1 -->
+    <div class="food-card">
+      <div class="text-box">
+        <h3><span>Best deals</span> Crispy Sandwiches</h3>
+        <p>Enjoy our freshly made sandwiches, packed with taste and freshness.</p>
+        <button>Proceed to Order →</button>
+      </div>
+      <div class="image-box">
+        <img src=".vscode/Image (1)last.png" alt="Crispy Sandwich">
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="food-card reverse">
+      <div class="image-box">
+        <img src=".vscode/Image 2.png" alt="Fried Chicken">
+      </div>
+      <div class="text-box">
+        <h3>Celebrate parties with <span>Fried Chicken</span></h3>
+        <p>Make your gatherings more memorable with our crispy fried chicken.</p>
+        <button>Proceed to Order →</button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="food-card">
+      <div class="text-box">
+        <h3>Wanna eat hot & spicy <span>Pizza?</span></h3>
+        <p>Try our sizzling and delicious hot pizzas baked to perfection.</p>
+        <button>Proceed to Order →</button>
+      </div>
+      <div class="image-box">
+        <img src=".vscode/Image 3.png" alt="Pizza"> 
+      </div>
+    </div>
+  </section> 
+  <!--second last footer-->
+  <section class="order-banner">
+    <div class="overlay">
+      <h2>Are you ready to order with the best deals?</h2>
+      <a href="#" class="btn">PROCEED TO ORDER →</a>
+    </div>
+  </section>
+<!--footer end-->
+  <!-- ======= Footer Section ======= -->
+  <footer class="footer">
+    <div class="footer-top">
+      <h3>Our top cities</h3>
+      <div class="cities">
+        <ul>
+          <li>San Francisco</li>
+          <li>Miami</li>
+          <li>San Diego</li>
+          <li>East Bay</li>
+          <li>Long Beach</li>
+        </ul>
+        <ul>
+          <li>Los Angeles</li>
+          <li>Washington DC</li>
+          <li>Seattle</li>
+          <li>Portland</li>
+          <li>Nashville</li>
+        </ul>
+        <ul>
+          <li>New York City</li>
+          <li>Orange County</li>
+          <li>Atlanta</li>
+          <li>Charlotte</li>
+          <li>Denver</li>
+        </ul>
+        <ul>
+          <li>Chicago</li>
+          <li>Phoenix</li>
+          <li>Las Vegas</li>
+          <li>Sacramento</li>
+          <li>Oklahoma City</li>
+        </ul>
+        <ul>
+          <li>Columbus</li>
+          <li>New Mexico</li>
+          <li>Albuquerque</li>
+          <li>Sacramento</li>
+          <li>New Orleans</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="footer-middle">
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li>About us</li>
+          <li>Team</li>
+          <li>Careers</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <ul>
+          <li>Help & Support</li>
+          <li>Partner with us</li>
+          <li>Ride with us</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          <li>Terms & Conditions</li>
+          <li>Refund & Cancellation</li>
+          <li>Privacy Policy</li>
+          <li>Cookie Policy</li>
+        </ul>
+      </div>
+
+      <div class="footer-column social">
+        <h4>FOLLOW US</h4>
+        <div class="icons">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+
+        <p>Receive exclusive offers in your mailbox</p>
+        <div class="subscribe">
+          <input type="email" placeholder="Enter Your email" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="footer-bottom">
+      <p>All rights Reserved © <strong>Your Company, 2021</strong></p>
+      <p>Made with <span>💛</span> by <strong>Themewagon</strong></p>
+    </div>
+  </footer>
+</body>
+</html>
+ 
